@@ -33,7 +33,7 @@ apis:
   tags: Options
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/options/master/_listings/akamai/papi-v0-edgehostnames-contractid,groupid,options-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/options/master/_listings/akamai/papi-v0-edgehostnames-contractid,groupid,options-post.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com

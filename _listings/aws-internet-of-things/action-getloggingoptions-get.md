@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetLoggingOptions&k=1:
+  /?Action=GetLoggingOptions:
     get:
       summary: ' Get Logging Options '
       description: Gets the logging options

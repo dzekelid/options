@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeOrderableClusterOptions&k=1:
+  /?Action=DescribeOrderableClusterOptions:
     get:
       summary: ' Describe Orderable Cluster Options '
       description: Returns a list of orderable cluster options

@@ -16,9 +16,9 @@ tags:
 - Free Tier
 - Financial Services
 - Enterprise
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/options/master/_listings/intrinio/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/intrinio/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Intrinio API
@@ -30,7 +30,7 @@ apis:
   tags: Options
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/options/master/_listings/intrinio/options-historical-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/intrinio/options-expirations-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps

@@ -20,9 +20,9 @@ tags:
 - Bots
 - Applications
 - API LIfeycle
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/options/master/_listings/akamai/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Akamai API
@@ -33,7 +33,7 @@ apis:
   tags: Options
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/options/master/_listings/akamai/papi-v0-edgehostnames-edgehostnameid-contractid,groupid,options-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/akamai/papi-v0-edgehostnames-contractid,groupid,options-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com

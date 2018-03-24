@@ -30,7 +30,7 @@ apis:
   tags: Options
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/intrinio/options-expirations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/intrinio/options-historical-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps

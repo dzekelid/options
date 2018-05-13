@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Elastic Beanstalk API
+  title: AWS Elastic Beanstalk API Describe Configuration Options
   version: 1.0.0
+  description: |-
+    Describes the configuration options that are used in a particular configuration
+          template or environment, or that a specified solution stack defines.
 schemes:
 - http
 produces:

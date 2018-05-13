@@ -31,15 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/intrinio/options-historical-get.md
-- name: Intrinio API Option Expirations
-  description: Returns all option contract expiration dates for a given ticker.
+- name: Intrinio API Historical Prices
+  description: Returns the historical prices for the given option contract.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com//
   tags: Options
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/intrinio/options-expirations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/intrinio/options-historical-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps

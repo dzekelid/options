@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Describe Orderable Cluster Options
   version: 1.0.0
+  description: Returns a list of orderable cluster options.
 schemes:
 - http
 produces:

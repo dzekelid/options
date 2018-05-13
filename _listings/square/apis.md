@@ -21,9 +21,9 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Put Location Modifier Lists Modifier List Modifier Options
+- name: Square Connect API Delete Location Modifier Lists Modifier List Modifier Options
     Modifier Option
-  description: Put location modifier lists modifier list modifier options modifier
+  description: Delete location modifier lists modifier list modifier options modifier
     option.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
   humanURL: https://squareup.com
@@ -31,7 +31,9 @@ apis:
   tags: Options
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/square/location-id-modifier-lists-modifier-list-id-modifier-options-modifier-option-id-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/square/location-id-modifier-lists-modifier-list-id-modifier-options-modifier-option-id-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/square/location-id-modifier-lists-modifier-list-id-modifier-options-modifier-option-id-delete-postman.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com

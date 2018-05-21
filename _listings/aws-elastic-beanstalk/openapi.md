@@ -1,0 +1,54 @@
+---
+swagger: "2.0"
+x-collection-name: AWS Elastic Beanstalk
+x-complete: 1
+info:
+  title: AWS Elastic Beanstalk API
+  version: 1.0.0
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /?Action=DescribeConfigurationOptions:
+    get:
+      summary: Describe Configuration Options
+      description: |-
+        Describes the configuration options that are used in a particular configuration
+              template or environment, or that a specified solution stack defines.
+      operationId: describeConfigurationOptions
+      x-api-path-slug: actiondescribeconfigurationoptions-get
+      parameters:
+      - in: query
+        name: ApplicationName
+        description: The name of the application associated with the configuration
+          template or environment
+        type: string
+      - in: query
+        name: EnvironmentName
+        description: The name of the environment whose configuration options you want
+          to describe
+        type: string
+      - in: query
+        name: Options.member.N
+        description: If specified, restricts the descriptions to only the specified
+          options
+        type: string
+      - in: query
+        name: SolutionStackName
+        description: The name of the solution stack whose configuration options you
+          want to      describe
+        type: string
+      - in: query
+        name: TemplateName
+        description: The name of the configuration template whose configuration options
+          you want to      describe
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - ConfigurationOptions
+---

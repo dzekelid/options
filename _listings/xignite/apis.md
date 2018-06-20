@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Options
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,10 +18,10 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xFutures.json/XigniteFutures//GetFutureOptionsByStrikePrice
-  tags: Future, Options, By, Strike, Price
+  tags: Market Data,Future, Options, By, Strike, Price
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/xignite/getfutureoptionsbystrikeprice-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/xignite/getfutureoptionsbystrikeprice-get-openapi.md
 - name: Xignite Futures
   x-api-slug: xignite-futures
   description: Financial market data on-demand. Xignite financial Web services help
@@ -34,7 +34,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/xignite/openapi.md
 x-common:
-- type: x-net-sdk
+- type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/
 - type: x-base
   url: http://globalmaster.xignite.com
@@ -94,6 +94,10 @@ x-common:
   url: https://resources.xignite.com/webinars
 - type: x-website
   url: http://www.xignite.com
+- type: x-website
+  url: http://xignite.com
+- type: x-website
+  url: http://xignite.com/
 - type: x-white-papers
   url: http://www.xignite.com/market-data/resources/white-papers/
 include: []

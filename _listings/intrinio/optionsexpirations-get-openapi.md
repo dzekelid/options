@@ -24,7 +24,7 @@ paths:
       parameters:
       - in: query
         name: ticker
-        description: ' the option ticker symbol, corresponding to the underlying security'
+        description: the option ticker symbol, corresponding to the underlying security
         type: string
       responses:
         200:

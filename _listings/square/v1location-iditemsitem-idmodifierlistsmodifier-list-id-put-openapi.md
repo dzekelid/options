@@ -1,10 +1,12 @@
 ---
 swagger: "2.0"
 x-collection-name: Square
-x-complete: 1
+x-complete: 0
 info:
-  title: Square Connect
-  description: client-library-for-accessing-the-square-connect-apis
+  title: Square Connect API Associates a modifier list with an item, meaning modifier
+    options from the list can be applied to the item.
+  description: Associates a modifier list with an item, meaning modifier options from
+    the list can be applied to the item.
   termsOfService: https://connect.squareup.com/tos
   contact:
     name: Square Developer Platform
@@ -97,33 +99,17 @@ paths:
       - Applied
       - To
       - Item
-  /v1/{location_id}/modifier-lists/{modifier_list_id}:
-    delete:
-      summary: Deletes an existing item modifier list and all modifier options associated
-        with it.
-      description: Deletes an existing item modifier list and all modifier options
-        associated with it.
-      operationId: DeleteModifierList
-      x-api-path-slug: v1location-idmodifierlistsmodifier-list-id-delete
-      parameters:
-      - in: path
-        name: location_id
-        description: The ID of the items associated location
-      - in: path
-        name: modifier_list_id
-        description: The ID of the modifier list to delete
-      responses:
-        200:
-          description: OK
-      tags:
-      - S
-      - Existing
-      - Item
-      - Modifier
-      - List
-      - ""
-      - Modifier
-      - Options
-      - Associated
-      - It
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

@@ -6,10 +6,10 @@ description: Square helps millions of sellers run their business- from secure cr
   up today!
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
 x-kinRank: "9"
-x-alexaRank: "2436"
+x-alexaRank: "2433"
 tags: Options
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
@@ -19,7 +19,7 @@ apis:
   description: Removes a modifier list association from an item, meaning modifier
     options from the list can no longer be applied to the item.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}/modifier-lists/{modifier_list_id}
   tags: Removes,Modifier,List,Association,From,Item,,Meaning,Modifier,Options,From,List,Can,No,Longer,Be,Applied,To,Item
   properties:
@@ -31,7 +31,7 @@ apis:
   description: Associates a modifier list with an item, meaning modifier options from
     the list can be applied to the item.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/items/{item_id}/modifier-lists/{modifier_list_id}
   tags: Associates,Modifier,List,Item,,Meaning,Modifier,Options,From,List,Can,Be,Applied,To,Item
   properties:
@@ -43,7 +43,7 @@ apis:
   description: Deletes an existing item modifier list and all modifier options associated
     with it.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com////v1/{location_id}/modifier-lists/{modifier_list_id}
   tags: S,Existing,Item,Modifier,List,,Modifier,Options,Associated,It
   properties:
@@ -55,13 +55,15 @@ apis:
     card processing to point of sale solutions. Get paid faster with Square and sign
     up today!
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
-  humanURL: http://squareup.com
+  humanURL: http://square.com
   baseURL: https://connect.squareup.com//
   tags: Options
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/square/openapi.md
 x-common:
+- type: x-website
+  url: http://square.com
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase
@@ -90,6 +92,8 @@ x-common:
   url: takedowns@squareup.com
 - type: x-github
   url: https://github.com/square
+- type: x-linkedin
+  url: https://www.linkedin.com/company/square--/
 - type: x-twitter
   url: https://twitter.com/Square
 - type: x-website

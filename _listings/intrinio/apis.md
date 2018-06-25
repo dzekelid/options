@@ -1,21 +1,23 @@
 ---
 name: Intrinio
 x-slug: intrinio
-description: Market for financial data APIs and analytics applications built with
-  those data feeds. Affordable, easy to access financial data for developers and investors
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+description: Intelligent Data, On Demand. The financial data platform for developers,
+  investors, students, and educators, with over 200 feeds including real-time, intraday,
+  EOD, and international financial data available via REST API, WebSocket, CSV, Excel,
+  and Goo...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
 x-kinRank: "8"
-x-alexaRank: "321628"
+x-alexaRank: "303229"
 tags: Options
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Intrinio API Option Expirations
   x-api-slug: intrinio-api
   description: Returns all option contract expiration dates for a given ticker.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com////options/expirations
   tags: Market Data,Options
@@ -25,7 +27,7 @@ apis:
 - name: Intrinio API Historical Prices
   x-api-slug: intrinio-api
   description: Returns the historical prices for the given option contract.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com////options/historical
   tags: Market Data,Options,Historical
@@ -34,10 +36,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/intrinio/optionshistorical-get-openapi.md
 - name: Intrinio API
   x-api-slug: intrinio-api
-  description: Market for financial data APIs and analytics applications built with
-    those data feeds. Affordable, easy to access financial data for developers and
-    investors
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  description: Intelligent Data, On Demand. The financial data platform for developers,
+    investors, students, and educators, with over 200 feeds including real-time, intraday,
+    EOD, and international financial data available via REST API, WebSocket, CSV,
+    Excel, and Goo...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com//
   tags: Options
@@ -67,6 +70,8 @@ x-common:
   url: admin@intrinio.com
 - type: x-email
   url: support@intrinio.com
+- type: x-email
+  url: acarpenter@intrinio.com
 - type: x-login
   url: https://intrinio.com/login
 - type: x-partners

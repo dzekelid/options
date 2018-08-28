@@ -1,16 +1,12 @@
----
 swagger: "2.0"
 x-collection-name: Xero
 x-complete: 1
 info:
-  title: Accounting
-  description: -introductionthe-xero-accounting-api-is-a-restful-web-service-and-uses-the-oauth-v1-0a-protocol-to-authenticate-3rd-party-applications--the-accounting-api-exposes-accounting-and-related-functions-of-the-main-xero-application-and-can-be-used-for-a-variety-of-purposes-such-as-creating-transactions-like-invoices-and-credit-notes-right-through-to-extracting-accounting-data-via-our-reports-endpoint-
-  contact:
-    name: Xero Developer Team
-    url: https://developer.xero.com
-  version: "2.0"
+  title: Xero oAuth 1a
+  description: a-collection-to-authenticate-to-the-xero-api-using-oauth1-0a
+  version: 1.0.0
 host: api.xero.com
-basePath: /api.xro/2.0
+basePath: /
 schemes:
 - http
 produces:
@@ -84,4 +80,3 @@ paths:
       - TrackingCategoryID
       - Options
       - TrackingOptionID
----

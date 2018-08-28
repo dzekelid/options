@@ -7,65 +7,61 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.j
 x-kinRank: "8"
 x-alexaRank: "2158"
 tags: Options
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/xero/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Clarity Accounting Put Tracking Categories Trackingcategory Options
-  x-api-slug: clarity-accounting
+- name: Accounting - Put Tracking Categories Trackingcategory Options
+  x-api-slug: trackingcategoriestrackingcategoryidoptions-put
   description: Put trackingcategories trackingcategory options.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//TrackingCategories/{TrackingCategoryID}/Options
-  tags: TrackingCategories,TrackingCategoryID,Options
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/xero/trackingcategoriestrackingcategoryidoptions-put-openapi.md
-- name: Clarity Accounting X-related-model Tracking Categories Trackingcategory Options
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Tracking Categories Trackingcategory Options
+  x-api-slug: trackingcategoriestrackingcategoryidoptions-xrelatedmodel
   description: X-related-model trackingcategories trackingcategory options.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//TrackingCategories/{TrackingCategoryID}/Options
-  tags: TrackingCategories,TrackingCategoryID,Options
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/xero/trackingcategoriestrackingcategoryidoptions-xrelatedmodel-openapi.md
-- name: Clarity Accounting Delete Tracking Categories Trackingcategory Options Trackingoption
-  x-api-slug: clarity-accounting
+- name: Accounting - Delete Tracking Categories Trackingcategory Options Trackingoption
+  x-api-slug: trackingcategoriestrackingcategoryidoptionstrackingoptionid-delete
   description: Delete trackingcategories trackingcategory options trackingoption.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//TrackingCategories/{TrackingCategoryID}/Options/{TrackingOptionID}
-  tags: TrackingCategories,TrackingCategoryID,Options,TrackingOptionID
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/xero/trackingcategoriestrackingcategoryidoptionstrackingoptionid-delete-openapi.md
-- name: Clarity Accounting X-related-model Tracking Categories Trackingcategory Options
+- name: Accounting - X-related-model Tracking Categories Trackingcategory Options
     Trackingoption
-  x-api-slug: clarity-accounting
+  x-api-slug: trackingcategoriestrackingcategoryidoptionstrackingoptionid-xrelatedmodel
   description: X-related-model trackingcategories trackingcategory options trackingoption.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//TrackingCategories/{TrackingCategoryID}/Options/{TrackingOptionID}
-  tags: TrackingCategories,TrackingCategoryID,Options,TrackingOptionID
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/xero/trackingcategoriestrackingcategoryidoptionstrackingoptionid-xrelatedmodel-openapi.md
-- name: Clarity Accounting
-  x-api-slug: clarity-accounting
-  description: Xero is the QuickBooks alternative. Use Xero accounting software to
-    manage invoicing, bank reconciliation, bookkeeping & more. Start a free trial
-    today!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0
-  tags: Options
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/options/master/_listings/xero/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://wordnik.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xero.stack.network
 - type: x-base
   url: https://api.xero.com
 - type: x-blog

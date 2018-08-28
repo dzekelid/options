@@ -254,6 +254,65 @@ paths:
       - Value
       - Id
       - Json
+    get:
+      summary: Get Products Options Option Values Value
+      description: ""
+      operationId: getProductsOptionsOptionValuesValue.json
+      x-api-path-slug: productsidoptionsoption-idvaluesvalue-id-json-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: path
+        name: option_id
+        description: Id of the Product Option
+      - in: path
+        name: value_id
+        description: ID of the Product Option Value
+      responses:
+        200:
+          description: OK
+      tags:
+      - Products
+      - Id
+      - Options
+      - Option
+      - Id
+      - Values
+      - Value
+      - Id
+      - Json
+    put:
+      summary: Put Products Options Option Values Value
+      description: ""
+      operationId: putProductsOptionsOptionValuesValue.json
+      x-api-path-slug: productsidoptionsoption-idvaluesvalue-id-json-put
+      parameters:
+      - in: body
+        name: body
+        description: Product option value parameters to change
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: No Name
+      - in: path
+        name: option_id
+        description: Id of the Product Option
+      - in: path
+        name: value_id
+        description: Id of the Product Option Value
+      responses:
+        200:
+          description: OK
+      tags:
+      - Products
+      - Id
+      - Options
+      - Option
+      - Id
+      - Values
+      - Value
+      - Id
+      - Json
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

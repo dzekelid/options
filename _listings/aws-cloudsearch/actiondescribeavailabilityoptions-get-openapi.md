@@ -34,6 +34,27 @@ paths:
           description: OK
       tags:
       - Availability Options
+  /?Action=UpdateAvailabilityOptions:
+    get:
+      summary: Update Availability Options
+      description: Configures the availability options for a domain.
+      operationId: UpdateAvailabilityOptions
+      x-api-path-slug: actionupdateavailabilityoptions-get
+      parameters:
+      - in: query
+        name: DomainName
+        description: A string that represents the name of a domain
+        type: string
+      - in: query
+        name: MultiAZ
+        description: You expand an existing search domain to a second Availability
+          Zone by setting the Multi-AZ option to true
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Availability Options
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

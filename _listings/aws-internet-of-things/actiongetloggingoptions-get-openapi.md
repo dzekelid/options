@@ -33,6 +33,22 @@ paths:
           description: OK
       tags:
       - Logging Options
+  /?Action=SetLoggingOptions:
+    get:
+      summary: Set Logging Options
+      description: Sets the logging options.
+      operationId: setLoggingOptions
+      x-api-path-slug: actionsetloggingoptions-get
+      parameters:
+      - in: query
+        name: loggingOptionsPayload
+        description: The logging options payload
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Logging
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

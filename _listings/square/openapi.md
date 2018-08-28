@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Square
 x-complete: 1
@@ -126,4 +125,122 @@ paths:
       - Options
       - Associated
       - It
----
+  /v1/{location_id}/modifier-lists/{modifier_list_id}/modifier-options:
+    post:
+      summary: Creates an item modifier option and adds it to a modifier list.
+      description: Creates an item modifier option and adds it to a modifier list.
+      operationId: CreateModifierOption
+      x-api-path-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptions-post
+      parameters:
+      - in: body
+        name: body
+        description: An object containing the fields to POST for the request
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: location_id
+        description: The ID of the items associated location
+      - in: path
+        name: modifier_list_id
+        description: The ID of the modifier list to edit
+      responses:
+        200:
+          description: OK
+      tags:
+      - Creates
+      - Item
+      - Modifier
+      - Option
+      - Adds
+      - It
+      - To
+      - Modifier
+      - List
+  /v1/{location_id}/modifier-lists/{modifier_list_id}/modifier-options/{modifier_option_id}:
+    delete:
+      summary: Deletes an existing item modifier option from a modifier list.
+      description: Deletes an existing item modifier option from a modifier list.
+      operationId: DeleteModifierOption
+      x-api-path-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-delete
+      parameters:
+      - in: path
+        name: location_id
+        description: The ID of the items associated location
+      - in: path
+        name: modifier_list_id
+        description: The ID of the modifier list to delete
+      - in: path
+        name: modifier_option_id
+        description: The ID of the modifier list to edit
+      responses:
+        200:
+          description: OK
+      tags:
+      - S
+      - Existing
+      - Item
+      - Modifier
+      - Option
+      - From
+      - Modifier
+      - List
+    put:
+      summary: Modifies the details of an existing item modifier option.
+      description: Modifies the details of an existing item modifier option.
+      operationId: UpdateModifierOption
+      x-api-path-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put
+      parameters:
+      - in: body
+        name: body
+        description: An object containing the fields to POST for the request
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: location_id
+        description: The ID of the items associated location
+      - in: path
+        name: modifier_list_id
+        description: The ID of the modifier list to edit
+      - in: path
+        name: modifier_option_id
+        description: The ID of the modifier list to edit
+      responses:
+        200:
+          description: OK
+      tags:
+      - Modifies
+      - Details
+      - Of
+      - Existing
+      - Item
+      - Modifier
+      - Option
+  /v1/{location_id}/modifier-lists:
+    post:
+      summary: Creates an item modifier list and at least one modifier option for
+        it.
+      description: Creates an item modifier list and at least one modifier option
+        for it.
+      operationId: CreateModifierList
+      x-api-path-slug: v1location-idmodifierlists-post
+      parameters:
+      - in: body
+        name: body
+        description: An object containing the fields to POST for the request
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: location_id
+        description: The ID of the location to create a modifier list for
+      responses:
+        200:
+          description: OK
+      tags:
+      - Creates
+      - Item
+      - Modifier
+      - List
+      - At
+      - Least
+      - Modifier
+      - Optionit

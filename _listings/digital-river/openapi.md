@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Digital River
 x-complete: 1
@@ -81,4 +80,20 @@ paths:
       - Me
       - Payment
       - Options
----
+  /v1/shoppers/me/carts/active/apply-shipping-option:
+    post:
+      summary: Post Shoppers Me Carts Active Apply Shipping Option
+      description: Post shoppers me carts active apply shipping option.
+      operationId: postV1ShoppersMeCartsActiveApplyShippingOption
+      x-api-path-slug: v1shoppersmecartsactiveapplyshippingoption-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Shoppers
+      - Me
+      - Carts
+      - Active
+      - Apply
+      - Shipping
+      - Option

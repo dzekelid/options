@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Internet of Things
 x-complete: 1
@@ -32,4 +31,19 @@ paths:
           description: OK
       tags:
       - Logging Options
----
+  /?Action=SetLoggingOptions:
+    get:
+      summary: Set Logging Options
+      description: Sets the logging options.
+      operationId: setLoggingOptions
+      x-api-path-slug: actionsetloggingoptions-get
+      parameters:
+      - in: query
+        name: loggingOptionsPayload
+        description: The logging options payload
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Logging

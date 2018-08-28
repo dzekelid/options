@@ -1,0 +1,120 @@
+---
+swagger: "2.0"
+x-collection-name: Broadleaf Commerce
+x-complete: 0
+info:
+  title: Broadleaf Commerce API Options Shipping Estimate
+  description: Options shipping estimate.
+  version: 1.0.0
+host: demo.broadleafcommerce.org
+basePath: /api/v1
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /docsreload:
+    options:
+      summary: Options Docsreload
+      description: Options docsreload.
+      operationId: optionsDocsreload
+      x-api-path-slug: docsreload-options
+      responses:
+        200:
+          description: OK
+      tags:
+      - Options
+      - Docsreload
+  /error:
+    options:
+      summary: Options Error
+      description: Options error.
+      operationId: optionsError
+      x-api-path-slug: error-options
+      responses:
+        200:
+          description: OK
+      tags:
+      - Options
+      - Error
+  /preview/**:
+    options:
+      summary: Options Preview **
+      description: Options preview **.
+      operationId: optionsPreview**
+      x-api-path-slug: preview-options
+      responses:
+        200:
+          description: OK
+      tags:
+      - Options
+      - Preview
+      - '**'
+  /ratings/{itemId}:
+    options:
+      summary: Options Ratings
+      description: Options ratings.
+      operationId: optionsRatingsItem
+      x-api-path-slug: ratingsitemid-options
+      parameters:
+      - in: path
+        name: itemId
+        description: itemId
+      - in: query
+        name: ratingType
+        description: ratingType
+      responses:
+        200:
+          description: OK
+      tags:
+      - Options
+      - Ratings
+  /shipping/options:
+    get:
+      summary: Get Shipping Options
+      description: Get shipping options.
+      operationId: getShippingOptions
+      x-api-path-slug: shippingoptions-get
+      parameters:
+      - in: query
+        name: fulfillmentType
+        description: fulfillmentType
+      responses:
+        200:
+          description: OK
+      tags:
+      - Shipping
+      - Options
+  /shipping/{cartId}/estimate:
+    options:
+      summary: Options Shipping Estimate
+      description: Options shipping estimate.
+      operationId: optionsShippingCartEstimate
+      x-api-path-slug: shippingcartidestimate-options
+      parameters:
+      - in: path
+        name: cartId
+        description: cartId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Options
+      - Shipping
+      - Estimate
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
